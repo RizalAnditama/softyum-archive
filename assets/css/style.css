@@ -9,17 +9,19 @@ img {
   background-size: cover;
   object-fit: cover;
 }
+video {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+}
 
 .parent {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 05px;
-  grid-row-gap: 05px;
-}
-
-.div1.div2 {
-  height: 20vh;
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 
 .div1 {
@@ -40,21 +42,54 @@ img {
 }
 .div5 {
   grid-area: 3 / 1 / 4 / 5;
-  background-color: red;
+  background-color: darkorange;
 }
 .div6 {
+  grid-area: 4 / 1 / 6 / 5;
+  background-color: red;
+}
+.div7 {
   grid-area: 3 / 5 / 5 / 9;
   background-color: blue;
 }
-.div7 {
+.div8 {
   grid-area: 4 / 9 / 5 / 13;
   background-color: green;
 }
-.div8 {
-  grid-area: 4 / 1 / 6 / 5;
-  background-color: aqua;
-}
 .div9 {
   grid-area: 5 / 5 / 6 / 13;
+  background-color: aqua;
+}
+.div10 {
+  grid-area: 6 / 1 / 7 / 9;
+  background-color: darkorange;
+}
+.div11 {
+  grid-area: 6 / 9 / 8 / 13;
   background-color: red;
+}
+.div12 {
+  grid-area: 7 / 1 / 9 / 5;
+
+  background-color: blue;
+}
+.div13 {
+  grid-area: 7 / 5 / 8 / 9;
+  background-color: green;
+}
+.div14 {
+  grid-area: 8 / 5 / 10 / 13;
+  background-color: red;
+}
+.div15 {
+  background-color: aqua;
+  grid-area: 10 / 1 / 11 / 9;
+}
+.div16 {
+  grid-area: 9 / 1 / 10 / 5;
+  background-color: darkorange;
+}
+.div17 {
+  grid-area: 10 / 9 / 11 / 13;
+  background-color: blue;
 }
